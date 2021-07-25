@@ -14,7 +14,7 @@ return false;
 }
    
    
-   document.getElementById("result").innerHTML="If you deposit <p style="color:yellow;">"+principal+"</p>,\<br\>at an interest rate of <p style="color:yellow;">"+rate+"%</p>\<br\>You will receive an amount of <p style="color:yellow;">"+amount+"</p>,\<br\>in the year <p style="color:yellow;">"+year+"</p>\<br\>"
+   document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+amount+",\<br\>in the year "+year+"\<br\>"
 }
 function updateRate() 
 {
